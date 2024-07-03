@@ -1,0 +1,84 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 142px 0 172px;
+  background-image: url('hero/hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center -100px;
+  background-size: cover;
+
+  &__wrapper {
+    overflow: hidden;
+  }
+
+  &__title {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    max-width: 1000px;
+    margin: 0 auto 48px;
+
+    span {
+      color: #3772ff;
+    }
+  }
+
+  &__description {
+    font-family: Raleway, sans-serif !important;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 125%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px 36px;
+    margin-top: 72px;
+  }
+
+  img {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  &__decorDollar {
+    top: -16px;
+    right: 78px;
+  }
+
+  &__decorTop {
+    top: -30px;
+    left: 10%;
+    width: 155px;
+    aspect-ratio: auto 155 / 103;
+    height: 103px;
+  }
+
+  &__decorLeft {
+    left: -87px;
+    top: 200px;
+    transform: rotate(-30deg);
+    width: 375px;
+    aspect-ratio: auto 375 / 250;
+    height: 250px;
+  }
+
+  &__decorRight {
+    right: -20px;
+    top: 330px;
+    transform: rotate(12deg);
+  }
+}

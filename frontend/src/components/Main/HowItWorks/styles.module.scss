@@ -1,0 +1,55 @@
+.howItWorks {
+  background-color: #2c2d36;
+  padding: 100px 0 110px;
+  margin-bottom: 172px;
+
+  > div {
+    > p {
+      text-align: center;
+      color: #fcfcfd;
+    }
+  }
+
+
+  &__steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 16px;
+    gap: 16px;
+    margin-top: 64px;
+  }
+
+  &__card {
+    padding: 20px 24px;
+    background-color: #fcfcfd;
+    border-radius: 24px;
+    color: #787f91;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+  }
+
+  &__head {
+    color: #2c2d36;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  &__number {
+    font-size: 40px;
+    color: #2c2d36;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+  }
+}

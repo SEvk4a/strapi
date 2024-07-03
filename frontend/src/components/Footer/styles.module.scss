@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 32px;
+  background-color: #2c2d36;
+
+  &__wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px
+  }
+
+  &__nameBlock {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  &__offert {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+      font-size: 16px;
+      color: #25b75a;
+      text-decoration: underline;
+    }
+  }
+
+  &__legalText {
+    max-width: 462px;
+    color: #dbdde2;
+    font-size: 14px;
+    line-height: 125%;
+  }
+
+  &__divider {
+    background: #787f91;
+    width: 1px;
+    height: 12px;
+    margin-inline: 8px;
+  }
+}

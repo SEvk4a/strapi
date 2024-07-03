@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .text {
+      font-family: Inter, sans-serif;
+      font-size: 14px;
+      margin-left: 16px;
+    }
+  }
+
+  &__input {
+    border-radius: 16px;
+    background-color: #fcfcfd;
+    padding: 0px 7px;
+    font-size: 14px;
+  }
+}
