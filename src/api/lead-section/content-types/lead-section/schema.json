@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "lead_sections",
+  "info": {
+    "singularName": "lead-section",
+    "pluralName": "lead-sections",
+    "displayName": "LeadSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "warning": {
+      "type": "text"
+    }
+  }
+}

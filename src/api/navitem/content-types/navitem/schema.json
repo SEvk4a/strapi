@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navitems",
+  "info": {
+    "singularName": "navitem",
+    "pluralName": "navitems",
+    "displayName": "navitem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

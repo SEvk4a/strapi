@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "mini_faq_sections",
+  "info": {
+    "singularName": "mini-faq-section",
+    "pluralName": "mini-faq-sections",
+    "displayName": "miniFaqSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

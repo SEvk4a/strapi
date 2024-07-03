@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_how_it_work_card_how_it_work_cards",
+  "info": {
+    "displayName": "howItWorkCard"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

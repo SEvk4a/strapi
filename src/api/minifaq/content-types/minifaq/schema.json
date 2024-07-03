@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "minifaqs",
+  "info": {
+    "singularName": "minifaq",
+    "pluralName": "minifaqs",
+    "displayName": "minifaq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}
